@@ -37,3 +37,33 @@ main{
     margin: 40px auto;
     border-radius: 15px;
 }
+
+header {
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header h2{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--very-dark-blue);
+}
+
+header h2 span{
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+
+}
+
+header p{
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
