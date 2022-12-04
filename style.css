@@ -31,11 +31,15 @@ body {
 
 main{
     background-color: var(--white);
-    width: 550px;
+    width: 640px;
     height: 620px;
     
     margin: 40px auto;
     border-radius: 15px;
+
+    box-shadow: 1px 11px 19px 4px rgba(247,246,250,1);
+    -webkit-box-shadow: 1px 11px 19px 4px rgba(247,246,250,1);
+    -moz-box-shadow: 1px 11px 19px 4px rgba(247,246,250,1);
 }
 
 header {
@@ -65,5 +69,39 @@ header h2 span{
 header p{
     font-size: .9rem;
     font-weight: 600;
+    color: var(--dark-grayish-blue);
+}
+
+header p:hover{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    background-color: var(--light-grayish-blue-1);
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem 1.5rem;
+}
+
+.card img{
+    height: 3rem;
+    margin-right: .8rem;
+}
+
+.card-content{
+    color: var(--dark-grayish-blue);
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.card-content p b{
+    font-weight: 800;
+    color: var(--very-dark-blue);
+}
+
+.card-content p a{
+    font-weight: 800;
     color: var(--dark-grayish-blue);
 }

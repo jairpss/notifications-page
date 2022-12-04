@@ -37,13 +37,6 @@ The designs were created to the following widths:
 
 ## Text
 
-Notifications 3
-
-Mark all as read
-
-Mark Webber reacted to your recent post My first tournament today!
-1m ago
-
 Angela Gray followed you
 5m ago
 
