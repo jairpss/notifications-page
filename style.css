@@ -10,7 +10,7 @@
     --dark-grayish-blue: hsl(219, 12%, 42%);
     --very-dark-blue: hsl(224, 21%, 14%);
     --red: hsl(1, 90%, 64%);
-    --blue: hsl(219, 85%, 26%);
+    --blue: #083b8d;
 
     --main-font: 'Plus Jakarta Sans', sans-serif;
 }
@@ -63,7 +63,6 @@ header h2 span{
     padding: 0.2rem 0.7rem;
     border-radius: 5px;
     margin-left: .5rem;
-
 }
 
 header p{
@@ -79,10 +78,11 @@ header p:hover{
 
 .card{
     display: flex;
-    background-color: var(--light-grayish-blue-1);
+    background-color: var(--very-light-grayish-blue);
     border-radius: .5rem;
     padding: 1rem;
     margin: 1rem 1.5rem;
+    align-items: center;
 }
 
 .card img{
@@ -104,4 +104,20 @@ header p:hover{
 .card-content p a{
     font-weight: 800;
     color: var(--dark-grayish-blue);
+}
+
+.card-content p a:hover{
+    color: var(--blue);
+}
+
+.time{
+    color: var(--grayish-blue);
+    cursor: pointer;
+}
+
+.card-text::after{
+    content: " ";
+    background-color: var(--red);
+    width: 5px;
+    height: 5px;
 }

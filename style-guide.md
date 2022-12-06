@@ -37,12 +37,6 @@ The designs were created to the following widths:
 
 ## Text
 
-Angela Gray followed you
-5m ago
-
-Jacob Thompson has joined your group Chess Club
-1 day ago
-
 Rizky Hasanuddin sent you a private message
 5 days ago
 Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
