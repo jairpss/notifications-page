@@ -31,8 +31,8 @@ body {
 
 main{
     background-color: var(--white);
-    width: 640px;
-    height: 620px;
+    width: 40rem;
+    height: 54rem;
     
     margin: 40px auto;
     border-radius: 15px;
@@ -69,6 +69,7 @@ header p{
     font-size: .9rem;
     font-weight: 600;
     color: var(--dark-grayish-blue);
+    transition: all .1s ease-in-out;
 }
 
 header p:hover{
@@ -85,9 +86,14 @@ header p:hover{
     align-items: center;
 }
 
+.seen{
+    background-color: var(--white);
+}
+
 .card img{
     height: 3rem;
     margin-right: .8rem;
+    align-self: flex-start;
 }
 
 .card-content{
@@ -101,23 +107,50 @@ header p:hover{
     color: var(--very-dark-blue);
 }
 
-.card-content p a{
-    font-weight: 800;
-    color: var(--dark-grayish-blue);
+.card-content p::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: var(--red);
+    border-radius: 50%;
+    margin-left: 3px;
 }
 
-.card-content p a:hover{
+.card-content p span{
+    font-weight: 800;
+    color: var(--dark-grayish-blue);
+    transition: all .1s ease-in-out;
+}
+
+.card-content p span:hover{
     color: var(--blue);
+    cursor: pointer;
 }
 
 .time{
     color: var(--grayish-blue);
-    cursor: pointer;
+    
 }
 
-.card-text::after{
-    content: " ";
-    background-color: var(--red);
-    width: 5px;
-    height: 5px;
+.message{
+    margin-top: .7rem;
+    padding: 1rem;
+    border: 1px solid var(--light-grayish-blue-2);
+    border-radius:5px;
+    transition: all .2s ease-in-out;
+}
+
+.message:hover{
+   background-color: var(--light-grayish-blue-2);
+   cursor: pointer;
+}
+
+.chess-img{
+    margin-left: 8rem;
+}
+
+.chess-img:hover{
+    cursor: pointer;
+    border: 2px solid var(--light-grayish-blue-2);
+    border-radius: 10px;
 }
