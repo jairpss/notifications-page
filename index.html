@@ -8,20 +8,15 @@
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Notifications page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
     <header>
-      <h2>Notifications <span>3</span></h2>
-      <p>Mark all as read</p>
+      <h2>Notifications <span id="notification-num">3</span></h2>
+      <p onclick="read()">Mark all as read</p>
     </header>
     <section class="content">
-        <div class="card active">
+        <div id="card-read" class="card active">
             <img src="./assets/images/avatar-mark-webber.webp" alt="user-img">
             <div class="card-content">
               <p clas="card-text"><b>Mark Webber</b> reacted to your recent post <span>My first tournament today!</span></p> 
@@ -29,7 +24,7 @@
             </div> 
         </div>
 
-        <div class="card active">
+        <div id="card-read2" class="card active">
           <img src="./assets/images/avatar-angela-gray.webp" alt="user-img">
           <div class="card-content">
             <p clas="card-text"><b>Angela Gray</b> followed you</p> 
@@ -37,7 +32,7 @@
           </div> 
         </div>
 
-        <div class="card active">
+        <div id="card-read3" class="card active">
           <img src="./assets/images/avatar-jacob-thompson.webp" alt="user-img">
           <div class="card-content">
             <p clas="card-text"><b>Jacob Thompson</b> has joined your group <span>Chess Club</span></p> 
